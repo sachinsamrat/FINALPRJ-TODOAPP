@@ -1,5 +1,5 @@
-# Calculator
-----
+# Todo APP
+---
 ### Team Members: 
 - Sachin samrat deva pasam
 - naga pavan
@@ -11,7 +11,7 @@
 #### Sachin samrat deva pasam 
  
   
-   ##### Assignment3:
+   ##### Final Project:
   1. History Backend Logic( cs files)
   2. About UI changes
   3. Documentation
@@ -19,17 +19,18 @@
 #### naga pavan
  
 
-    ##### Assignment3:
-1. History Frontend Logic
-2. DB connection
-3. backend logic
+    ##### Final Project:
+1. Frontend Logic
+2. API connection
+3. backend logic(conversion)
 
 #### Yaswanth gollapudi
 
-   ##### Assignment3:
-  1. layout for history page
+   ##### Final Project
+  1. layout for weather display
   2. services addition and module separation
   3. UI changes in colors and style in resources
+  4. temperature conversions
 
 
 ----
@@ -37,7 +38,8 @@
  
  
 
-  #### Assignment3: 
-![](Picture1.png)
-![](Picture2.png)
-
+  #### Final Project: 
+![](a.png)
+![](b.png)
+![](c.png)
+![](d.png)
