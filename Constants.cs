@@ -1,4 +1,4 @@
-﻿namespace WeatherApp
+namespace WeatherApp
 {
     public static class Constants
     {
