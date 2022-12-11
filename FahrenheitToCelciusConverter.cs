@@ -1,17 +1,14 @@
-﻿using System.Globalization;
+using System.Globalization;
 
 namespace WeatherApp
 {
-    public class FahrenheitToCelciusConverter : IValueConverter
+    public class LongToDateTimeConverter : IValueConverter
     {
+        DateTime _time = new DateTime(1970,1,1,0,0,0,0);
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            double fahrenheit = (double)value;
-            double celcius = 0.00;
-            if (!ReferenceEquals(fahrenheit, null)) {
-                celcius = (fahrenheit - 32) * 5 / 9;
-            }
-            return Math.Round(celcius).ToString();
+            long dateTime = (long)value;
+            return $"{_time.AddSeconds(dateTime).ToString()} UTC";
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
